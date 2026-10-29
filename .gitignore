@@ -1,0 +1,20 @@
+cat << 'EOF' > .gitignore
+# Virtual environments
+.venv/
+venv/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest / testing artifacts
+.pytest_cache/
+.coverage
+
+# macOS system metadata
+.DS_Store
+
+# Local secrets
+.env
+EOF
